@@ -5,11 +5,9 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.WebApi", "InventoryManagementApi\InventoryManagement.WebApi.csproj", "{6BD46199-7666-4A05-96FD-9D22C4350387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IM.Domain", "IM.Domain\IM.Domain.csproj", "{1670409A-C28D-4DF4-B1F1-ACE4F263F1AA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IM.Core", "IM.Core\IM.Core.csproj", "{745527B4-F6BA-48FD-9D17-B2457B1D752E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IM.DataAccess", "IM.DataAccess\IM.DataAccess.csproj", "{F4A3E0F6-6606-4024-AA40-1F7CDC9BE716}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IM.DataAccessLayer", "IM.DataAccess\IM.DataAccessLayer.csproj", "{F4A3E0F6-6606-4024-AA40-1F7CDC9BE716}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IM.Services", "IM.Services\IM.Services.csproj", "{4A030CB7-F5FC-4AA7-9A30-8296EF088DCF}"
 EndProject
@@ -23,10 +21,6 @@ Global
 		{6BD46199-7666-4A05-96FD-9D22C4350387}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BD46199-7666-4A05-96FD-9D22C4350387}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BD46199-7666-4A05-96FD-9D22C4350387}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1670409A-C28D-4DF4-B1F1-ACE4F263F1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1670409A-C28D-4DF4-B1F1-ACE4F263F1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1670409A-C28D-4DF4-B1F1-ACE4F263F1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1670409A-C28D-4DF4-B1F1-ACE4F263F1AA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{745527B4-F6BA-48FD-9D17-B2457B1D752E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{745527B4-F6BA-48FD-9D17-B2457B1D752E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{745527B4-F6BA-48FD-9D17-B2457B1D752E}.Release|Any CPU.ActiveCfg = Release|Any CPU
