@@ -1,6 +1,5 @@
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\bin\Debug\netcoreapp2.1\IM.Core.deps.json
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\bin\Debug\netcoreapp2.1\IM.Core.dll
-C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\obj\Debug\netcoreapp2.1\IM.Core.csprojAssemblyReference.cache
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\obj\Debug\netcoreapp2.1\IM.Core.csproj.CoreCompileInputs.cache
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\obj\Debug\netcoreapp2.1\IM.Core.AssemblyInfoInputs.cache
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\obj\Debug\netcoreapp2.1\IM.Core.AssemblyInfo.cs
