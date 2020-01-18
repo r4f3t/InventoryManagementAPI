@@ -3,3 +3,7 @@ C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.DataAccess\
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.DataAccess\obj\Debug\netcoreapp2.1\IM.DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.DataAccess\obj\Debug\netcoreapp2.1\IM.DataAccessLayer.AssemblyInfoInputs.cache
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.DataAccess\obj\Debug\netcoreapp2.1\IM.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.DataAccess\bin\Debug\netcoreapp2.1\IM.DataAccessLayer.pdb
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.DataAccess\obj\Debug\netcoreapp2.1\IM.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.DataAccess\obj\Debug\netcoreapp2.1\IM.DataAccessLayer.dll
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.DataAccess\obj\Debug\netcoreapp2.1\IM.DataAccessLayer.pdb
