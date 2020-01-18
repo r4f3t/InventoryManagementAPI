@@ -6,3 +6,4 @@ C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\obj\De
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\bin\Debug\netcoreapp2.1\IM.Core.pdb
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\obj\Debug\netcoreapp2.1\IM.Core.dll
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\obj\Debug\netcoreapp2.1\IM.Core.pdb
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Core\obj\Debug\netcoreapp2.1\IM.Core.csprojAssemblyReference.cache
