@@ -11800,9 +11800,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafet\\Desktop\\InventoryManagement\\InventoryManagementAPI\\InventoryManagementApi\\InventoryManagementApi.csproj",
-      "projectName": "InventoryManagementApi",
-      "projectPath": "C:\\Users\\Rafet\\Desktop\\InventoryManagement\\InventoryManagementAPI\\InventoryManagementApi\\InventoryManagementApi.csproj",
+      "projectUniqueName": "C:\\Users\\Rafet\\Desktop\\InventoryManagement\\InventoryManagementAPI\\InventoryManagementApi\\InventoryManagement.WebApi.csproj",
+      "projectName": "InventoryManagement.WebApi",
+      "projectPath": "C:\\Users\\Rafet\\Desktop\\InventoryManagement\\InventoryManagementAPI\\InventoryManagementApi\\InventoryManagement.WebApi.csproj",
       "packagesPath": "C:\\Users\\Rafet\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Rafet\\Desktop\\InventoryManagement\\InventoryManagementAPI\\InventoryManagementApi\\obj\\",
       "projectStyle": "PackageReference",
