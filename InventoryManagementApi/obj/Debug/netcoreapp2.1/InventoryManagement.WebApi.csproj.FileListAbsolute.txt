@@ -12,3 +12,8 @@ C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManag
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\obj\Debug\netcoreapp2.1\InventoryManagement.WebApi.RazorTargetAssemblyInfo.cache
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\obj\Debug\netcoreapp2.1\InventoryManagement.WebApi.dll
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\obj\Debug\netcoreapp2.1\InventoryManagement.WebApi.pdb
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\bin\Debug\netcoreapp2.1\IM.Core.dll
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\bin\Debug\netcoreapp2.1\IM.Services.dll
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\bin\Debug\netcoreapp2.1\IM.Core.pdb
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\bin\Debug\netcoreapp2.1\IM.Services.pdb
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\obj\Debug\netcoreapp2.1\InventoryManagement.WebApi.csproj.CopyComplete
