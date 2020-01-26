@@ -21,7 +21,7 @@ namespace IM.DAL.Concrete
         }
         public MongoBaseRepository(IMongoClient client)
         {
-            var database = client.GetDatabase("IMData");
+            var database = client.GetDatabase("InventoryManagement");
             todo = database.GetCollection<Tmodel>(typeof(Tmodel).Name);
         }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using IM.Core.Configurator;
+using IM.Services.Concrete;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,12 +29,12 @@ namespace InventoryManagementApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            var monitor = services.BuildServiceProvider().GetService<IOptionsMonitor<CurrentSettings>>();
             services.Configure<CurrentSettings>(Configuration.GetSection("CurrentSettings"));
+            var monitor = services.BuildServiceProvider().GetService<IOptionsMonitor<CurrentSettings>>();
             if (monitor.CurrentValue.DatabaseSettings.CurrentDatabase == IM.Core.Enums.CurrentDatabase.MongoDB)
             {
                 services.AddSingleton<IMongoClient>((a) => new MongoClient(monitor.CurrentValue.MongoDBSettings.ConnectionString));
-                //services.AddScoped<IRepository<IM_Databases>, MongoRepository<IM_Databases>>();
+                services.AddScoped<IItemService, ItemManager>();
             }
         }
 

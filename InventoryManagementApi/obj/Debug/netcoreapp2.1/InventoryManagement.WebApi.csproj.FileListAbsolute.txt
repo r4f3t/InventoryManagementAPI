@@ -17,3 +17,5 @@ C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManag
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\bin\Debug\netcoreapp2.1\IM.Core.pdb
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\bin\Debug\netcoreapp2.1\IM.Services.pdb
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\obj\Debug\netcoreapp2.1\InventoryManagement.WebApi.csproj.CopyComplete
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\bin\Debug\netcoreapp2.1\IM.DataAccessLayer.dll
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\InventoryManagementApi\bin\Debug\netcoreapp2.1\IM.DataAccessLayer.pdb

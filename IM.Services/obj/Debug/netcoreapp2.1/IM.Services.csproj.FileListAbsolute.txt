@@ -7,3 +7,8 @@ C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Services\ob
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Services\obj\Debug\netcoreapp2.1\IM.Services.dll
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Services\obj\Debug\netcoreapp2.1\IM.Services.pdb
 C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Services\obj\Debug\netcoreapp2.1\IM.Services.csprojAssemblyReference.cache
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Services\bin\Debug\netcoreapp2.1\IM.Core.dll
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Services\bin\Debug\netcoreapp2.1\IM.DataAccessLayer.dll
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Services\bin\Debug\netcoreapp2.1\IM.Core.pdb
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Services\bin\Debug\netcoreapp2.1\IM.DataAccessLayer.pdb
+C:\Users\Rafet\Desktop\InventoryManagement\InventoryManagementAPI\IM.Services\obj\Debug\netcoreapp2.1\IM.Services.csproj.CopyComplete
