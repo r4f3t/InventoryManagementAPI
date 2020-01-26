@@ -26,6 +26,7 @@
         "dependencies": {
           "IM.Core": "1.0.0",
           "IM.Services": "1.0.0",
+          "IM.TransferObjects": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
@@ -1004,6 +1005,14 @@
         },
         "compile": {
           "IM.Services.dll": {}
+        }
+      },
+      "IM.TransferObjects/1.0.0": {
+        "runtime": {
+          "IM.TransferObjects.dll": {}
+        },
+        "compile": {
+          "IM.TransferObjects.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -4313,6 +4322,11 @@
       "sha512": ""
     },
     "IM.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IM.TransferObjects/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

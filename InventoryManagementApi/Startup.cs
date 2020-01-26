@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+using Newtonsoft.Json.Serialization;
 
 namespace InventoryManagementApi
 {
@@ -28,7 +29,8 @@ namespace InventoryManagementApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+                .AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver()); ;
             services.Configure<CurrentSettings>(Configuration.GetSection("CurrentSettings"));
             var monitor = services.BuildServiceProvider().GetService<IOptionsMonitor<CurrentSettings>>();
             if (monitor.CurrentValue.DatabaseSettings.CurrentDatabase == IM.Core.Enums.CurrentDatabase.MongoDB)

@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\IM.Core\IM.Core.csproj" />
     <ProjectReference Include="..\IM.Services\IM.Services.csproj" />
+    <ProjectReference Include="..\IM.TransferObjects\IM.TransferObjects.csproj" />
   </ItemGroup>
 
 </Project>

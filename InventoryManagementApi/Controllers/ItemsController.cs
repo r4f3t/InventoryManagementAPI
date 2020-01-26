@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using IM.Core.Domains;
+using IM.TransferObjects.Concrete.Response.Base;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,14 +26,27 @@ namespace InventoryManagement.WebApi.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Item> Get()
+        public DefaultResponse<IEnumerable<Item>> Get()
         {
-            return _itemService.GetItems();
+            var result = new DefaultResponse<IEnumerable<Item>>
+            {
+                HasResult = true,
+                Result = _itemService.GetItems(),
+                ResultText = "T"
+            };
+            return result;
         }
         [HttpGet]
-        public Item GetItemByBarcode(string barcode)
+        public DefaultResponse<Item> GetItemByBarcode(string barcode)
         {
-            return _itemService.GetItems(x=>x.Barcode==barcode).FirstOrDefault();
+            var result = new DefaultResponse<Item>
+            {
+                HasResult = true,
+                Result = _itemService.GetItems(x => x.Barcode == barcode).FirstOrDefault(),
+                ResultText = "T"
+            };
+            return result;
+
         }
     }
 }

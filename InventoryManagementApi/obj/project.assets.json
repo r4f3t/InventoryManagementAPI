@@ -5047,6 +5047,16 @@
         "runtime": {
           "bin/placeholder/IM.Services.dll": {}
         }
+      },
+      "IM.TransferObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/IM.TransferObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IM.TransferObjects.dll": {}
+        }
       }
     }
   },
@@ -13566,12 +13576,18 @@
       "type": "project",
       "path": "../IM.Services/IM.Services.csproj",
       "msbuildProject": "../IM.Services/IM.Services.csproj"
+    },
+    "IM.TransferObjects/1.0.0": {
+      "type": "project",
+      "path": "../IM.TransferObjects/IM.TransferObjects.csproj",
+      "msbuildProject": "../IM.TransferObjects/IM.TransferObjects.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "IM.Core >= 1.0.0",
       "IM.Services >= 1.0.0",
+      "IM.TransferObjects >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -13613,6 +13629,9 @@
             },
             "C:\\Users\\Rafet\\Desktop\\InventoryManagement\\InventoryManagementAPI\\IM.Services\\IM.Services.csproj": {
               "projectPath": "C:\\Users\\Rafet\\Desktop\\InventoryManagement\\InventoryManagementAPI\\IM.Services\\IM.Services.csproj"
+            },
+            "C:\\Users\\Rafet\\Desktop\\InventoryManagement\\InventoryManagementAPI\\IM.TransferObjects\\IM.TransferObjects.csproj": {
+              "projectPath": "C:\\Users\\Rafet\\Desktop\\InventoryManagement\\InventoryManagementAPI\\IM.TransferObjects\\IM.TransferObjects.csproj"
             }
           }
         }
