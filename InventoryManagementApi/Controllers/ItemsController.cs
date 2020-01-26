@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace InventoryManagement.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ItemsController : ControllerBase
     {
@@ -29,8 +29,8 @@ namespace InventoryManagement.WebApi.Controllers
         {
             return _itemService.GetItems();
         }
-        [HttpGet("{barcode}")]
-        public Item Get(string barcode)
+        [HttpGet]
+        public Item GetItemByBarcode(string barcode)
         {
             return _itemService.GetItems(x=>x.Barcode==barcode).FirstOrDefault();
         }

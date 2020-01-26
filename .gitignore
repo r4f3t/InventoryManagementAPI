@@ -1,7 +1,7 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
+bin/
 *.swp
 *.*~
 project.lock.json
@@ -36,6 +36,7 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+
 
 # Visual Studio 2015
 .vs/
